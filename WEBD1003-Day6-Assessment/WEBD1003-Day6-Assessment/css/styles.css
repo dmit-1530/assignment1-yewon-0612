@@ -45,6 +45,13 @@ p,li,cite {
     font-weight: 400;
 }
 
+.container section,h2{
+    padding: 0 6.25rem;
+}
+
+.flex-container section {
+    width: calc(100% - 2rem);
+}
 
 
 
