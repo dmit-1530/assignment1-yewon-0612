@@ -14,7 +14,9 @@
 
 .flex-container {
     display: flex;
+    /* to make contents side by side */
     flex-wrap: wrap;
+    /* make contents go to next line if they have wrong value of width */
     gap: 2rem;
 }
 
@@ -25,19 +27,9 @@ body {
     font-weight: 700;
 }
 
-header {
-    color: var(--off-white);
-    background-color: var(--primary-blue);
-    padding: 1.625rem 0 1.625rem 0;
-    margin-bottom: 1.75rem;
-}
-
-main {
-    padding: 0 6.25rem;
-}
-
 h1 {
     font-size: 1.625rem;
+    padding-left: 6.25rem;
 }
 
 h2 {
@@ -47,44 +39,43 @@ h2 {
 
 h3 {
     font-size: 3rem;
+    line-height: 1.5;
 }
 
 p,li,cite {
+    font-size: 1rem;
     font-weight: 400;
 }
 
-.flex-container section {
-    width: calc((100% / 2) - (2rem / 2));
+
+/* ***************** header & footer ***************** */
+header {
+    color: var(--off-white);
+    background-color: var(--primary-blue);
+    padding: 1.625rem 0 1.625rem 0;
+    margin-bottom: 1.75rem;
 }
 
-.flex-container p {
-    max-width: 27.25rem;
+
+/* ***************** main content ***************** */
+main {
+    padding: 0 6.25rem;
+}
+
+.team .members {
+    width: calc((100% / 2) - (2rem / 2));
 }
 
 .members {
     display: flex;
     align-items: center;
-    /* to make the contents be centered */
-}
-
-.members img {
-    margin: 0 3.5rem 0 1.75rem;
-    padding: 2.5rem 0;
+    /* to make the contents be centered verticaly*/
+    padding: 2rem 1.75rem 2rem 1.75rem;
+    max-width: 46.75rem;
 }
 
 section .members {
     background-color: var(--grey);
     margin-bottom: 1.25rem;
+    column-gap: 3.5rem;
 }
-
-
-
-
-
-
-/* ***************** header & footer ***************** */
-
-
-
-/* ***************** main content ***************** */
-
