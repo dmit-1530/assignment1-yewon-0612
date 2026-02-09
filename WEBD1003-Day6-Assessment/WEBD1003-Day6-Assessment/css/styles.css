@@ -22,20 +22,23 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1rem;
+    font-weight: 700;
 }
 
 h1 {
     font-size: 1.625rem;
     color: var(--off-white);
-    font-weight: 700;
     background-color: var(--primary-blue);
     padding: 1.625rem 0 1.625rem 6.25rem;
     margin-bottom: 1.75rem;
 }
 
 h2 {
+    font-size: 3.75rem;
+}
+
+h3 {
     font-size: 3rem;
-    font-weight: 700;
 }
 
 .team section {
