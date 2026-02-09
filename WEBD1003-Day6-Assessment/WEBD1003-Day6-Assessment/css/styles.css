@@ -5,3 +5,7 @@
 /* ***************** header & footer ***************** */
 
 /* ***************** main content ***************** */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
