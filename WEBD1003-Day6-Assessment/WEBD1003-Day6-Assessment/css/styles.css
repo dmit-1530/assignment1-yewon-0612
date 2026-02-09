@@ -33,6 +33,11 @@ h1 {
     margin-bottom: 1.75rem;
 }
 
+h2 {
+    font-size: 3rem;
+    font-weight: 700;
+}
+
 .team section {
     width: calc(100% / 4) - (2rem / 4);
     max-width: 43.25rem;
