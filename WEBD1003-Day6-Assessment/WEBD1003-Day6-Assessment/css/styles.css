@@ -8,7 +8,7 @@
 }
 
 .container {
-    max-width: 95.5rem;
+    max-width: 108rem;
     margin: 0 auto;
 }
 
@@ -29,7 +29,7 @@ body {
 
 h1 {
     font-size: 1.625rem;
-    padding-left: 6.25rem;
+    /* padding-left: 6.25rem; */
 }
 
 h2 {
@@ -71,11 +71,19 @@ main {
     align-items: center;
     /* to make the contents be centered verticaly*/
     padding: 2rem 1.75rem 2rem 1.75rem;
-    max-width: 46.75rem;
 }
 
 section .members {
     background-color: var(--grey);
     margin-bottom: 1.25rem;
     column-gap: 3.5rem;
+}
+
+.plans h2 {
+    margin-top: 6rem;
+}
+
+.plan {
+    justify-content: center;
+    background-color: var(--grey);
 }
