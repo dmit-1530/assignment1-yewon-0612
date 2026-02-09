@@ -56,6 +56,11 @@ h3 {
     max-width: 27.25rem;
 }
 
+.members {
+    display: flex;
+}
+
+
 
 
 
