@@ -25,16 +25,24 @@ body {
     font-weight: 700;
 }
 
-h1 {
-    font-size: 1.625rem;
+header {
     color: var(--off-white);
     background-color: var(--primary-blue);
-    padding: 1.625rem 0 1.625rem 6.25rem;
+    padding: 1.625rem 0 1.625rem 0;
     margin-bottom: 1.75rem;
+}
+
+main {
+    padding: 0 6.25rem;
+}
+
+h1 {
+    font-size: 1.625rem;
 }
 
 h2 {
     font-size: 3.75rem;
+    margin-bottom: 1.5rem;
 }
 
 h3 {
@@ -45,12 +53,22 @@ p,li,cite {
     font-weight: 400;
 }
 
-.container section,h2{
-    padding: 0 6.25rem;
+.flex-container section {
+    width: calc((100% / 2) - (2rem / 2));
 }
 
-.flex-container section {
-    width: calc(100% - 2rem);
+.flex-container p {
+    max-width: 27.25rem;
+}
+
+.members {
+    display: flex;
+    align-items: center;
+    /* to make the contents be centered */
+}
+
+section .members {
+    background-color: var(--grey);
 }
 
 
