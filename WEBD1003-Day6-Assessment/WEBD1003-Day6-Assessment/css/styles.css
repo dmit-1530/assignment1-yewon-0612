@@ -22,11 +22,6 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1rem;
-    font-weight: 700;
-}
-
-h1,h2,h3,h4 {
-    margin: 0;
 }
 
 h1 {
@@ -45,19 +40,8 @@ h3 {
     font-size: 3rem;
 }
 
-.team section {
-    width: calc(100% / 4) - (2rem / 4);
-    max-width: 43.25rem;
-    background-color: var(--grey);
-    padding: 1.75rem 2rem;
-}
-
-.team p {
-    max-width: 27.25rem;
-}
-
 .members {
-    display: flex;
+    
 }
 
 
