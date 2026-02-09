@@ -25,6 +25,10 @@ body {
     font-weight: 700;
 }
 
+h1,h2,h3,h4 {
+    margin: 0;
+}
+
 h1 {
     font-size: 1.625rem;
     color: var(--off-white);
@@ -39,7 +43,6 @@ h2 {
 
 h3 {
     font-size: 3rem;
-    margin: 0;
 }
 
 .team section {
