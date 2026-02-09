@@ -33,6 +33,14 @@ h1 {
     margin-bottom: 1.75rem;
 }
 
+.team section {
+    width: calc(100% / 4) - (2rem / 4);
+    max-width: 46.75rem;
+    background-color: var(--grey);
+    padding: 1.75rem 2rem;
+}
+
+
 
 
 /* ***************** header & footer ***************** */
