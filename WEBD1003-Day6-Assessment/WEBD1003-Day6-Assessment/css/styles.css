@@ -1,7 +1,123 @@
 /* ***************** utilities & containers ***************** */
+:root {
+    --primary-blue: #0C4A6E;
+    --off-white: #fafafa;
+    --black: #000;
+    --grey: #c3c3c4;
+
+}
+
+.container {
+    max-width: 95.5rem;
+    margin: 0 auto;
+}
+
+.flex-container {
+    display: flex;
+    /* to make contents side by side */
+    flex-wrap: wrap;
+    /* make contents go to next line if they have wrong value of width */
+    gap: 2rem;
+    justify-content: center;
+    /* to align contents in horizontal way */
+}
 
 /* ***************** global typography ***************** */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+h1 {
+    font-size: 1.625rem;
+}
+
+h2 {
+    font-size: 3.75rem;
+    margin-bottom: 1.5rem;
+}
+
+h3 {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+p,
+li,
+cite {
+    font-size: 1rem;
+    font-weight: 400;
+}
+
 
 /* ***************** header & footer ***************** */
+header,
+footer {
+    color: var(--off-white);
+    background-color: var(--primary-blue);
+    padding: 1.625rem 0 1.625rem 0;
+    margin-bottom: 1.75rem;
+}
+
+footer {
+    margin-top: 6rem;
+    margin-bottom: 0;
+}
+
 
 /* ***************** main content ***************** */
+main {
+    padding: 0 6.25rem;
+}
+
+.team .members {
+    width: calc((100% / 2) - (2rem / 2));
+}
+
+.members {
+    display: flex;
+    align-items: center;
+    /* to make the contents be centered verticaly*/
+    padding: 2rem 1.75rem 2rem 1.75rem;
+}
+
+section .members {
+    background-color: var(--grey);
+    margin-bottom: 1.25rem;
+    column-gap: 3.5rem;
+}
+
+.plans h2 {
+    margin-top: 6rem;
+}
+
+.plan {
+    width: calc((100% / 3) - (2rem / 3));
+    background-color: var(--grey);
+    max-width: 30.5rem;
+    display: flex;
+    flex-direction: column;
+    /* to change the direction of the flex (vertical) */
+    align-items: center;
+    /* make contents align in vertically */
+    text-align: center;
+    justify-content: space-between;
+    padding: 1.75rem 0;
+}
+
+.plan h4 {
+    font-size: 2.125rem;
+    font-weight: 700;
+}
+
+.plan p {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--primary-blue);
+}
+
+.plan li {
+    list-style: disc;
+    text-align: left;
+}
