@@ -19,7 +19,7 @@
     /* make contents go to next line if they have wrong value of width */
     gap: 2rem;
     justify-content: center;
-
+    /* to align contents in horizontal way */
 }
 
 /* ***************** global typography ***************** */
@@ -31,7 +31,6 @@ body {
 
 h1 {
     font-size: 1.625rem;
-    /* padding-left: 6.25rem; */
 }
 
 h2 {
@@ -99,7 +98,9 @@ section .members {
     max-width: 30.5rem;
     display: flex;
     flex-direction: column;
+    /* to change the direction of the flex (vertical) */
     align-items: center;
+    /* make contents align in vertically */
     text-align: center;
     justify-content: space-between;
     padding: 1.75rem 0;
@@ -120,4 +121,3 @@ section .members {
     list-style: disc;
     text-align: left;
 }
-
