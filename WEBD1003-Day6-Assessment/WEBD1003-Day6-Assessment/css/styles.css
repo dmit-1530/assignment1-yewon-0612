@@ -93,6 +93,7 @@ section .members {
     flex-direction: column;
     align-items: center;
     text-align: center;
+    justify-content: space-between;
 }
 
 .plan h4 {
@@ -106,4 +107,8 @@ section .members {
     color: var(--primary-blue);
 }
 
+.plan li {
+    list-style: disc;
+    text-align: left;
+}
 
