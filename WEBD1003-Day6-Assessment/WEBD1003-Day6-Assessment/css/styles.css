@@ -44,18 +44,26 @@ h3 {
     line-height: 1.5;
 }
 
-p,li,cite {
+p,
+li,
+cite {
     font-size: 1rem;
     font-weight: 400;
 }
 
 
 /* ***************** header & footer ***************** */
-header {
+header,
+footer {
     color: var(--off-white);
     background-color: var(--primary-blue);
     padding: 1.625rem 0 1.625rem 0;
     margin-bottom: 1.75rem;
+}
+
+footer {
+    margin-top: 6rem;
+    margin-bottom: 0;
 }
 
 
